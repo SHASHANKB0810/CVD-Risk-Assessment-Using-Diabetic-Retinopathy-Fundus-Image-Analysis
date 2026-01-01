@@ -7,8 +7,8 @@ Project Guide: Dr. Mamatha H R
 3) K A Amrutha Aithal PES1UG22AM077 CSE(AI ML)
 4) Shashank R Bellad PES1UG22AM150 CSE(AI ML) 
 
-#Contents of the ZIP File and File Description
-#1. Vessel segmentation code
+# Contents of the ZIP File and File Description
+# 1. Vessel segmentation code
 This notebook contains the complete implementation for retinal blood vessel segmentation 
 from fundus images.
 Includes:
@@ -20,7 +20,7 @@ model).
 1.5 The trained vessel segmentation model is saved as:
 vgg16_unet400_DREnhanced_model.keras
 
-#2. Optic segmentation code
+# 2. Optic segmentation code
 This notebook contains code for optic disc segmentation, which is required to exclude the 
 optic disc region during vessel analysis.
 Includes:
@@ -29,7 +29,7 @@ Includes:
 2.3 Inference code to generate optic disc masks.
 2.4 The trained optic disc segmentation model is saved as: efficientnetb3_unet_idrid.h5.
 
-#3. Optic segmentation code
+# 3. Optic segmentation code
 This notebook contains code for optic disc segmentation, which is required to exclude the 
 optic disc region during vessel analysis.
 Includes:
@@ -38,7 +38,7 @@ Includes:
 2.3 Inference code to generate optic disc masks.
 2.4 The trained optic disc segmentation model is saved as: efficientnetb3_unet_idrid.h5.
 
-#4. Complete code (Including AVR calculation)
+# 4. Complete code (Including AVR calculation)
 This file integrates all individual modules into a single end-to-end pipeline.
 Includes:
 3.1 Loading of trained vessel and optic disc segmentation models.
@@ -46,4 +46,5 @@ Includes:
 3.3 Extraction of arterioles and venules.
 3.4 Calculation of: AVR (Arteriolar-to-Venular Ratio)
 3.5 Batch processing of the entire dataset.
-5. ReadME file
+
+#5. ReadME file
